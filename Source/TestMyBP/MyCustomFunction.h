@@ -28,6 +28,18 @@ public:
 		int32 TextureHeight = 512,
 		int32 TextureWidth = 512
 	);
+	
 	UFUNCTION(BlueprintCallable)
 	static  TArray<uint8> IntegerArrayToByteArray(TArray<int32> IntegerArray);
+
+	// UFUNCTION(BlueprintCallable)
+	// void OpenWebCamera(TArray<FString> UrlArray);
+	//
+	// UFUNCTION(BlueprintCallable)
+	// void OpenLocalCamera(TArray<int32> ID);
+	//
+	// UFUNCTION(BlueprintCallable)
+	// void CloseCamera();
+
+	
 };
