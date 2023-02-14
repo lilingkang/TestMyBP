@@ -30,7 +30,7 @@ public:
 	);
 	
 	UFUNCTION(BlueprintCallable)
-	static  TArray<uint8> IntegerArrayToByteArray(TArray<int32> IntegerArray);
+	static TArray<uint8> IntegerArrayToByteArray(TArray<int32> IntegerArray);
 
 	// UFUNCTION(BlueprintCallable)
 	// void OpenWebCamera(TArray<FString> UrlArray);
